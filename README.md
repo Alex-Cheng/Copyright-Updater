@@ -7,6 +7,12 @@ Usage
 
 Check copyright statements in .cs files of a specified changelist. Update them if outdated.
 
+**UpdateCopyright.py** -- You can run it in command line with the pending changelist as a parameter, like this:
+
+    python.exe UpdateCopyright.py 455567
+
+**Collab.cmd** -- Update copyright and initial a code review. After installation, you are able to use it in P4V Tools menu or the context menu.
+
 
 Install and Config
 --------------------
