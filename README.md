@@ -3,13 +3,13 @@ Copyright Updater
 ==================
 
 Usage
-======
+------
 
 Check copyright statements in .cs files of a specified changelist. Update them if outdated.
 
 
 Install and Config
-===================
+--------------------
 
 1. Install Python. Version 2.7 to 3.x should all work, although I’ve only tested it with Python 3.3.
 2. Install P4 API for python.
@@ -24,7 +24,7 @@ Install and Config
 
 
 Possible Issues
-================
+-----------------
 
 * python.exe may not be in system path so you may need to add it manually. 
 * P4 connection fails – Usually happens when you have changed P4 server. Solution: Run ``p4 set P4PORT=yourserver:port``. Before this you can run ``p4 set`` to see if it’s configured correctly. This command changes windows registry so it is a one-time effort.
